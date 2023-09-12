@@ -11,12 +11,14 @@ import { Paginas } from './Componentes/Paginas';
 
 function App() {
   return (
+   
     <div className='App'>
       <Router>
         <Header />
         <Paginas />
       </Router>
     </div>
+   
   )
 }
 export default App;

@@ -2,6 +2,8 @@ import React from 'react'
 
 
 export const Productos = () => {
+
+
   return (
     <>
     <h1 className='title'></h1>
@@ -61,7 +63,7 @@ export const Productos = () => {
             <h1>Lectura Vincular</h1><br/> 
             <p>La Lectura Vincular tiene por objetivo brindarte respuestas sobre un vínculo especifico:
               pareja, ex pareja, amistad, vínculo laboral. </p><br/> 
-            <p className='price'>$320</p>
+            <p className='price'>$3200</p>
           </div>
           <div className='buttom'>
           <button className='btn'>Añadir al Carrito</button>
