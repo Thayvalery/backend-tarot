@@ -17,7 +17,12 @@ class Server {
   }
 
   middlewares() {
-    this.app.use(cors());
+    this.app.use(cors({
+      origin:['https://backend-tarot-nal8.vercel.app/', 'http://localhost:8080'],
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+      credentials: true,
+}));
+
     this.app.use(express.json());
   }
 
