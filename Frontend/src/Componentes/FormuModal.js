@@ -20,7 +20,7 @@ export const FormuModal = ({ isOpen, onClose }) => {
   const handleSubscribe = async () => {
     try {
       const trimmedEmail = email.trim();
-      const response = await axios.post('https://backend-tarot.vercel.app/', {
+      const response = await axios.post('https://backend-tarot.vercel.app/api/usuarios', {
         email: trimmedEmail,
         nombre,
         apellido,
